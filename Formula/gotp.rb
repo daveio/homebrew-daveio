@@ -20,7 +20,8 @@ class Gotp < Formula
   end
 
   test do
-    output = shell_output("#{bin}/gotp hello").strip
-    assert_equal "https://github.com/daveio/gotp", output
+    # TODO use `gotp hello` in 1.0.1
+    output = shell_output("#{bin}/gotp --version").strip
+    assert_equal "1.0.0 20190305", output
   end
 end
