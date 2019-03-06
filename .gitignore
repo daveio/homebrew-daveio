@@ -48,3 +48,13 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+### Custom
+
+# Private notes
+LOCAL-NOTES.md
+
+# Finder junk
+.DS_Store
+**/.DS_Store
+
