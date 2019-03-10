@@ -14,7 +14,7 @@ class Gotp < Formula
 
     cd srcpath do
       system "go", "get", "-t"
-      system "go", "build", "-o", "bin/gotp"
+      system "go", "build", "-o", bin/"gotp"
       prefix.install_metafiles
     end
   end
